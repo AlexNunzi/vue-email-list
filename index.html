@@ -10,7 +10,7 @@
     <body>
         
         <div id="app">
-            <ul>
+            <ul v-show="mailList.length == 10">
                 <li v-for="mail in mailList">{{mail}}</li>
             </ul>
         </div>
